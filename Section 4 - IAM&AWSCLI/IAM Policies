@@ -1,0 +1,21 @@
+Sid: An identifier for the statement.
+
+Effect: Whether the statement allows or denies access. 
+
+Principal: account / user / role to which the policy is applied to 
+
+Action: list of actions the policy allows of denies
+
+Resource: list of resources to which the actions applied to.
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        }
+    ]
+}

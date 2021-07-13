@@ -1,0 +1,12 @@
+IAM - Identity and access management
+Root account created by default. Shouldnt be used or shared
+Users are people in your org.
+Groups contain users, not other groups.
+Some users dont need to be assigned to a group.
+A user can belong to many groups.
+
+
+- Permissions
+    USERS AND GROUPS are assigned json doc of policies that described what the user can do.
+    Least priviledge principal. Min permissions a user needs.
+

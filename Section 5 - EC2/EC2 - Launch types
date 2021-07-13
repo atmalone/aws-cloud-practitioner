@@ -1,0 +1,53 @@
+On-demand instances: 
+    - Short workload
+    - Predictable pricing
+    - Pay for what you use:
+        - Linux - billing per second, after the first minute.
+        - All other operating systems (ex: Windows) - billing per hour.
+    - highest cost but no upfront payment.
+    - No long-term commitment
+    - Recommended for short-term and un-interrupted workloads, where you can't predict how the application will behave.
+
+Reserved: 
+    - Minimum 1-year
+    - reserved instances: Long workloads
+    - Convertible Reserved instances: Long workloads with flexible instances
+    - Scheduled Reserved instances: example - every thursday between 3-6pm.
+    - Up to 75% discount
+    - Reservation period - 1 year = +discount | 3 year = +++discount
+    - Purchasing options: no upfront | parial = + | All upfront = ++ discount
+    - Reserve a specific instance type
+    - Recommended for steady-state usage apps (think Database)
+    - Convertible reserved instances:
+        - can change the EC2 instance type
+        - Up to 54% discount
+    - Scheduled Reserved instances: 
+        - Launch within time window you reserved
+        - When you require a fraction of a day/week/month
+        - Still commitment for 1 to 3 years.
+
+Spot instances: 
+    - Short workloads
+    - Cheap
+    - Can lose instances (less reliable)
+    - Highest dicount in AWS up to 90% 
+    - You can lose them if your max defined price is less than the spot price.
+    - Most cost efficient.
+    - Use for failure resilient jobs:
+        - batch jobs
+        - Image processing
+        - Data analysis
+        - Distributed workloads
+    - Workloads with flexible start/end time
+    
+Dedicates instances:
+    - book an entire physical server
+    - control instance placement
+    - Dedicated hosts: 
+        - For regulatory complience requirement and cost reduction by allowing to use your existing server-bound software licenses.
+        - 3 year dedication
+        - More expensive
+        - Bring your own licenses
+    - May share hardware with other instances in the same account.
+    - No control over instance placement (can move hardware after start/stop)
+    

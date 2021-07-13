@@ -1,0 +1,12 @@
+Minimum password length with specific char types.
+Require users to change their own passwords
+password experation
+Prevent password reuse.
+
+
+You want to protect Root accounts and IAM users.
+MFA = password and security device you own.
+    Virtual MFA device
+    Authy - multidevice
+    YubiKey (3rd PArty) - Physical device.
+    If GovCloud - AWS GovCloud physical device.

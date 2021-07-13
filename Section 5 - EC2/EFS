@@ -1,0 +1,10 @@
+- Network file system that can be mounted on 100s of Ec2
+- EFS work with Linuz EC2 instances in Multi-AZ
+- Highly available, scalable, expensive , pay-per-use.
+
+- EFS infrequent access (EFS-IA)
+    - Storage class that is cost-optimized for files that are not accessed every day.
+    - Up to 92% lower cost compared to EFS Standard.
+    - EFS will automatically move your files to EFS-IA based on the last time they were accessed.
+    - Define policy and move to IA after e.g 60 days not accessed.
+    - Transparent cost optimization.

@@ -1,0 +1,25 @@
+AWS Regions - 
+    - All around the world. 
+    - All have names e.g eu-west-3. 
+    - Cluster of data centers
+    - Most AWS services are region scoped
+    - Use a service in one region then a another region it will be like a new time using the service.
+
+    - How to choose region?
+        Complience - data never leaves a region with out your permission
+        Proximity - reduces latency
+        Availability - particular services are not available in all regions.
+        Pricing - transparent pricing is visible on pricing board.
+
+AWS Availability Zones
+    - Each region has 3 to 6 AZ.
+    - Min AZ's is 2.
+    - Each AZ is one of more data centers with redundant power, networking and connectivity.
+    - Separated from eachother, isolated from disasters
+    - Connection with high bandwidth, ultra-low-latency networking.
+
+
+AWS Data Centers
+AWS Edge Locations / Points of Presence
+    - 216 Points. 205 Edge locations. 11 Regional caches in 84 cities across 42 countries.
+    - Content to end users will low latency.

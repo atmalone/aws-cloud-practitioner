@@ -1,0 +1,13 @@
+- Analogy: Think of EBS as network USB sticks
+
+- Network drive you can attach to your instances while they run
+- It allows your instances to persist data, even after their termination
+- They can be mounted to once instance at a time (at CCP level)
+- Bound to a specific availability zone
+- Free tier 30 GB of free per month
+
+- Its a network drive not a physical drive
+- Uses a network to communicate, which means potential latency.
+- It can be detatched from the EC2 instance and attached to another one quickly
+- It is locked to availability zones
+- To Move you must snapshot first
